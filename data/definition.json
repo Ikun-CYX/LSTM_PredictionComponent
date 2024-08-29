@@ -1,0 +1,65 @@
+{
+  "null" : "0000000000",
+  "Start": "0000000001",
+
+  "BasicReels" : "0000100000",
+  "WeightReels" : "0000100001",
+
+  "LinesTrigger" : "0001000001",
+  "WaysTrigger" : "0001000010",
+  "ScatterTrigger" : "0001000011",
+  "ClusterTrigger" : "0001000100",
+  "PiggyBank" : "0001000101",
+  "ComponentsTrigger" : "0001000110",
+  "ReelTrigger" : "0001000111",
+  "Jackpot" : "0001001000",
+  "AdjacentPayTrigger" : "0001001001",
+
+  "Respin" : "0010000001",
+  "Mask" : "0010000010",
+  "Collector" : "0010000011",
+  "SymbolCollection" : "0010000100",
+  "RollSymbol" : "0010000101",
+  "IntValMapping" : "0010000110",
+  "RollNumber" : "0010000111",
+  "RollString" : "0010001000",
+  "StringValMapping" : "0010001001",
+  "ControllerWorker" : "0010001010",
+
+  "DelayQueue" : "0010001011",
+  "WeightBranch" : "0010001100",
+  "CheckVal" : "0010001110",
+
+  "GenSymbolValsWithWinResult" : "0010010001",
+  "CheckSymbolVals" : "0010010010",
+  "ChgSymbolVals" : "0010010011",
+  "GenSymbolValsWithSymbol" : "0010010100",
+  "SymbolValsWins" : "0010010101",
+  "GenSymbolVals" : "0010010110",
+
+  "PositionCollection" : "0010011001",
+  "PositionCollectionFilter" : "0010011010",
+
+  "CatchSymbols" : "0010011101",
+  "BurstSymbols" : "0010011110",
+
+  "ReplaceReel" : "0100000001",
+  "ReplaceReelWithMask" : "0100000010",
+  "RebuildReelIndex" : "0100000011",
+
+  "MoveSymbol" : "0100010001",
+  "ReplaceSymbolGroup" : "0100010010",
+  "AddSymbols" : "0100010011",
+  "ChgSymbols" : "0100010100",
+  "RebuildSymbols" : "0100010101",
+  "ResetSymbols" : "0100010110",
+
+  "WinResultMulti" : "0100001001",
+  "WinResultModifier" : "0100001010",
+
+  "genGigaSymbol" : "0100001100",
+
+  "RemoveSymbols" : "1000000001",
+  "DropDownSymbols" : "1000000010",
+  "RefillSymbols" : "1000000011"
+}
